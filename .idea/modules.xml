@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaExplore.iml" filepath="$PROJECT_DIR$/.idea/JavaExplore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xl-2023-nacos/consumer/consumer.iml" filepath="$PROJECT_DIR$/xl-2023-nacos/consumer/consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xl-2023-nacos/provider/provider.iml" filepath="$PROJECT_DIR$/xl-2023-nacos/provider/provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xl-2023-nacos/xl-2023-nacos.iml" filepath="$PROJECT_DIR$/xl-2023-nacos/xl-2023-nacos.iml" />
+    </modules>
+  </component>
+</project>
