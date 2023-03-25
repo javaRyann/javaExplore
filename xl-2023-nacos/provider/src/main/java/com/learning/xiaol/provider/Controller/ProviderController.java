@@ -15,6 +15,6 @@ public class ProviderController {
 
     @GetMapping("/hello")
     public String hello (@RequestParam("name") String name) {
-        return "Hi Nacos:" + port +",I'm " + name;
+        return "Hi Nacos :" + port +",I'm " + name;
     }
 }

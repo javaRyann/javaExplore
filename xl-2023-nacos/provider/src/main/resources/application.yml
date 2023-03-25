@@ -1,11 +1,12 @@
 server:
-  port: 8082
+  port: 8081
 spring:
   application:
-    name: service-consumer
+    name: service-provider
   cloud:
     nacos:
       discovery:
         namespace: 0a3a3c0b-fb91-4131-9898-d351735fc5bc
         server-addr: 127.0.0.1:8848
         group: prod
+        ephemeral: true
