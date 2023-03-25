@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: service-provider
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        prefix: service-provider
+        username: nacos
+        password: nacos
+  profiles:
+    active: dev
