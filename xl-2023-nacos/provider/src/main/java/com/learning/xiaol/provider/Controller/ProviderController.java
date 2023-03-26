@@ -22,6 +22,6 @@ public class ProviderController {
 
     @GetMapping("/testConfig")
     public String testConfig () {
-        return "config.filePath: " + port;
+        return "config.port: " + port;
     }
 }

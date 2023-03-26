@@ -5,9 +5,14 @@ spring:
     nacos:
       config:
         server-addr: 127.0.0.1:8848
-        file-extension: yaml
-        prefix: service-provider
+#        file-extension: yaml
+#        prefix: service-provider
         username: nacos
         password: nacos
-  profiles:
-    active: dev
+        group: prod
+        shared-configs:
+          - data-id: service-provide-common.yaml
+            refresh: true
+        extension-configs:
+          - data-id: service-provider-redis-dev.yml
+            refresh: true
